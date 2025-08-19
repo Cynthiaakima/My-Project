@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynthia AKIMANA's Session 9&10 Assignment</title>
+    <style>
+        body {
+            background-color: #f7f7f8; /* Light background color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: brown;
+        }
+        nav {
+            overflow: hidden;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li a {
+            display: block;
+            text-align: right;
+            color: lightslategray;
+            padding: 14px 0;
+            margin-left: 40px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #97c7f9;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .form {
+            flex: 1;
+            margin-right: 20px;
+        }
+        form {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #ffffff; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        fieldset {
+            border: 2px solid #dddddd; 
+            border-radius: 8px;
+            padding: 30px;
+            background-color: #f4f4f4; 
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #e8e8e8; /* Button background color */
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #b4deff; /* Button hover color */
+        }
+        .map {
+            flex: 1;
+            margin-left: 20px;
+            height: 450px; /* Set height for the map */
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="rehome.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="wecontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <fieldset>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" placeholder="Your Name" required>
+                    
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" placeholder="Your Last Name" required>
+                    
+                    <label for="province">Province</label>
+                    <select name="province" id="province" required>
+                        <option value="Kigali">Kigali</option>
+                        <option value="West">West</option>
+                        <option value="East">East</option>
+                        <option value="South">South</option>
+                    </select>
+                    
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" required></textarea>
+                </fieldset>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <div class="map">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5859948659127!2d30.108446799999992!3d-1.9167261999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca1b826518dd9%3A0x62c6160d41e8f88c!2sKepler%20College!5e0!3m2!1sen!2srw!4v1740565681597!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>Email: contact@kepler.edu</p>
+        <p>Phone: +250 123 456 789</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Kepler - Cynthia AKIMANA. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

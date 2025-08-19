@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynthia AKIMANA's Session 5 and 6 Assignment</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+        }
+    
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="page1.html">Page 1</a> |
+        <a href="page2.html">Page 2</a> |
+        <a href="page3.html">Page 3</a>
+    </nav>
+
+    <h1>User Registration Form</h1>
+    <form action="submit_form.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required placeholder="Write your Username"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Write your Email"><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="burundi">Burundi</option>
+        </select><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your Password"><br><br>
+
+        <label for="registration_date">Registration Date:</label>
+        <input type="date" id="registration_date" name="registration_date" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

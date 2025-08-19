@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-image: linear-gradient(to right,pink,yellow,red,aqua,lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-text-fill-color: transparent;
+    padding: 60px;
+    margin-right: 50PX;
+    font-size: 45px;
+}
+.navigation {
+    display: flex;
+
+}
+a{
+    display: inline;
+}

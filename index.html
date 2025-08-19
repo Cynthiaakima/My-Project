@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Restaurant</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #ffa07a;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.featured-dishes {
+    padding: 50px;
+}
+
+.featured-dishes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.dish {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dish img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.dish h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.bbq-showcase {
+    padding: 50px;
+}
+
+.bbq-showcase img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bbq-showcase h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.promotional-content {
+    padding: 50px;
+}
+
+.promotional-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.promotional-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.promotional-content button {
+    background-color: #ffa07a;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Welcome To BBQ</h1>
+            <p>Experience Time...</p>
+            <button>Get Start Now</button>
+        </div>
+    </header>
+    <section class="featured-dishes">
+        <h2>Our Best Selling BBQ</h2>
+        <div class="dishes-grid">
+            <div class="dish">
+                <img src="dish1.jpg" alt="Dish 1">
+                <h3>Dish 1</h3>
+            </div>
+            <div class="dish">
+                <img src="dish2.jpg" alt="Dish 2">
+                <h3>Dish 2</h3>
+            </div>
+            <div class="dish">
+                <img src="dish3.jpg" alt="Dish 3">
+                <h3>Dish 3</h3>
+            </div>
+            <div class="dish">
+                <img src="dish4.jpg" alt="Dish 4">
+                <h3>Dish 4</h3>
+            </div>
+        </div>
+    </section>
+    <section class="bbq-showcase">
+        <img src="bbq.jpg" alt="BBQ">
+        <h2>BBQ Experience</h2>
+    </section>
+    <section class="promotional-content">
+        <h2>My Style..</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <button>Learn More</button>
+    </section>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    box-sizing:border-box;
+    margin: 10px;
+    background-color: rgb(3, 3, 3);
+}
+/*----------HEADER SECTION--------------*/
+.header{
+    background-color:pink ;
+    height: 100px;
+    text-align: center;
+    margin:5px 0px ;
+    
+}
+.header > span{
+    padding-top: 40px;  
+    font-size: 30px;
+ } 
+ /*----------NAVIGATION SECTION--------------*/
+ .navigation{
+    height: 40px;
+    margin:5px 0px ;
+    background-color: lightskyblue;
+    text-align: center;
+ }  
+.navigation > span{
+    font-size: 30px;
+}
+/*----------MAIN SECTION--------------*/
+.main{
+    background-color: antiquewhite;
+    height: 63vh;
+    display: flex;
+    margin:5px 0px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.content{
+    background-color: lightgrey;
+    height:100%;
+    text-align: center;
+    width: 20%;
+    
+}
+.maincontent{
+    width: 60%;
+    height: 100%;
+    background-color: aquamarine;
+}
+/*----------FOOTER SECTION--------------*/
+.footer{
+    background-color: cadetblue;
+    height: 10vh;
+     text-align:center;
+}
+.footer span{
+   font-size: 30px;
+}
+/*----------MEDIA QUERIES SECTION--------------*/
+@media screen and (min-width:200px)and (max-width:600px){
+   .header{
+    height: 30px;
+    background-color: aqua;
+    font-size: 20px;
+   } 
+}
